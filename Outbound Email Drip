@@ -1,0 +1,126 @@
+Implementation Notes
+Variables to replace:
+
+{{ contact.first_name }} - Lead's first name
+{{ lead.primary_address.city }} - Property city
+CALENDAR_LINK - Your Calendly or booking link
+Cadence:
+
+Email 1: Day 0 (initial outreach)
+Email 2: Day 3 (if no response)
+Email 3: Day 7 (if no response)
+Email 4: Day 12 (if no response)
+Email 5: Day 18 (final breakup)
+
+TIDY Outbound Email Drip Campaign
+
+Email 1: Introduction & Value Prop
+Subject: Managing your {{ lead.primary_address.city }} Airbnb alone?
+
+Body:
+
+Hi {{ contact.first_name }},
+
+I noticed you manage an Airbnb property in {{ lead.primary_address.city }} and I'm curious if you handle everything yourself.
+
+What if you could have a full property management service for just 3.9%?
+
+• Cleaning • Maintenance • Guest issues • Listing management
+
+All taken care of for you.
+
+TIDY is the first AI + Human property management solution that handles everything, and it's 10x cheaper than a regular property manager.
+
+Want to see the numbers for your property?
+
+Book a demo [blocked]
+
+-Thomaz
+
+Email 2: ROI Calculator
+Subject: You're probably paying 28% in PM fees
+
+Body:
+
+Hi {{ contact.first_name }},
+
+Following up on my last note. Thought you might like to see the math.
+
+Most owners pay 28% to property managers. Let's say you have 4 properties (~$168k revenue):
+
+Traditional PM (28%): $47,040/year in fees TIDY (3.9%): $6,552/year in fees
+
+You keep an extra $40,488/year.
+
+Same service. 10x less cost.
+
+Interested in seeing your specific numbers?
+
+Book a demo [blocked]
+
+-Thomaz
+
+Email 3: Objection Handler - "I like my current PM"
+Subject: "I like my current PM"
+
+Body:
+
+Hi {{ contact.first_name }},
+
+I hear this all the time: "I like my current PM."
+
+That's great. But ask yourself:
+
+• Are they transparent about where your money goes? • Do you have full control over vendors and pricing? • Are you paying 25-35% of revenue?
+
+Most PMs we replace were "fine", but our customers save $10k-$15k per property annually.
+
+Your current costs: ~$15k/year With TIDY: ~$2k/year
+
+Same service. Or better.
+
+Want to talk?
+
+Book a demo [blocked]
+
+-Thomaz
+
+Email 4: Risk Reversal - Profit Guarantee
+Subject: Zero risk to try TIDY
+
+Body:
+
+Hi {{ contact.first_name }},
+
+Still thinking about it? I get it, switching PMs or getting a new one is a big decision.
+
+Here's why there's zero risk:
+
+TIDY's Profit Guarantee
+
+If you don't make MORE profit with TIDY than your current setup in the first 6 months, we credit the difference.
+
+You literally cannot lose money trying us.
+
+Want to see how it works?
+
+Book a demo [blocked]
+
+-Thomaz
+
+Email 5: Breakup Email
+Subject: Closing your file
+
+Body:
+
+Hi {{ contact.first_name }},
+
+I've reached out a few times but haven't heard back.
+
+I'll assume this isn't a priority right now, so I'll go ahead and close your file.
+
+If I'm wrong and you'd still like to see how much you could save (most customers save $10k-$15k per property annually), just hit reply.
+
+Otherwise, best of luck with your properties.
+
+-Thomaz
